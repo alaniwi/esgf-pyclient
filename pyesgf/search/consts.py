@@ -6,7 +6,7 @@ TYPE_FILE = 'File'
 TYPE_AGGREGATION = 'Aggregation'
 QUERY_KEYWORD_TYPES = ('system', 'facet', 'freetext', 'temporal', 'geospatial')
 RESPONSE_FORMAT = 'application/solr+json'
-DEFAULT_BATCH_SIZE = 50
+DEFAULT_BATCH_SIZE = 5000
 
 OPERATOR_NEQ = 'not_equal'
 
